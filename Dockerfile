@@ -86,7 +86,6 @@ RUN printf '%s\n' \
 '}' \
 > /app/nsjail.cfg
 
-# Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8080
