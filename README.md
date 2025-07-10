@@ -43,7 +43,7 @@ This Dockerfile sets up a secure Python execution sandbox using NSJail, designed
 1. **Build the Docker image**
 
 ```
-docker build -t python-sandbox .
+docker build -t stacksync .
 ```
 
 2. **Run the container**
